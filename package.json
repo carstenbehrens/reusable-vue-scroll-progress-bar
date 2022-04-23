@@ -3,7 +3,7 @@
   "description": "A simple reusable Vue 3 scroll progress component",
   "version": "1.0.0",
   "private": true,
-  "author": "Carsten Behrens <carsten.behrens@carstenbehrens.com>",
+  "author": "Carsten Behrens <carsten@carstenbehrens.com>",
   "license": "MIT",
   "scripts": {
     "dev": "vite",
@@ -47,5 +47,16 @@
     "husky": "^7.0.4",
     "vite": "^2.9.5",
     "vitepress": "^0.22.3"
-  }
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carstenbehrens/reusable-vue-scroll-progress-bar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/carstenbehrens/reusable-vue-scroll-progress-bar/issues"
+  },
+  "homepage": "https://github.com/carstenbehrens/reusable-vue-scroll-progress-bar#readme"
 }
