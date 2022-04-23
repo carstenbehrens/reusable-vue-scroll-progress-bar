@@ -10,7 +10,10 @@
     "build": "vite build",
     "preview": "vite preview",
     "test": "cypress run-ct --quiet --reporter spec",
-    "test:dev": "cypress open-ct"
+    "test:dev": "cypress open-ct",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
   },
   "main": "./dist/reusable-vue-scroll-progress-bar-umd.js",
   "module": "./dist/reusable-vue-scroll-progress-bar-es.js",
@@ -42,6 +45,7 @@
     "@vitejs/plugin-vue": "^2.3.1",
     "cypress": "^9.5.4",
     "husky": "^7.0.4",
-    "vite": "^2.9.5"
+    "vite": "^2.9.5",
+    "vitepress": "^0.22.3"
   }
 }
