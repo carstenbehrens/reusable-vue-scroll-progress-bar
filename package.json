@@ -2,7 +2,7 @@
   "name": "reusable-vue-scroll-progress-bar",
   "description": "A simple reusable Vue 3 scroll progress component",
   "version": "1.0.0",
-  "private": true,
+  "private": false,
   "author": "Carsten Behrens <carsten@carstenbehrens.com>",
   "license": "MIT",
   "scripts": {
