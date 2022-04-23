@@ -14,7 +14,7 @@ npm install reusable-vue-scroll-progress-bar
 
 ```vue
 <template>
-  <scroll-progress-bar></scroll-progress-bar>
+  <scroll-progress-bar />
 </template>
 ```
 
