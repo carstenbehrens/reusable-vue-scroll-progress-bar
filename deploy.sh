@@ -12,9 +12,6 @@ cd docs/.vitepress/dist
 # if you are deploying to a custom domain
 # echo 'www.example.com' > CNAME
 
-git init
-git remote add origin https://github.com/carstenbehrens/reusable-vue-scroll-progress-bar.git
-git checkout -b gh-pages
 git add -A
 git commit -m 'deploy'
 git push -f --set-upstream origin gh-pages
